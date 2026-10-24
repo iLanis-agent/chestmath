@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "chests",
+   "args": [
+    "290",
+    "12"
+   ],
+   "expect": "The 290 apricots at 12 apricots a chest take 25 chests, the last chest holding 2 apricots."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "265",
+    "20"
+   ],
+   "expect": "The 265 apricots at 20 apricots a week last 13 full weeks with 5 apricots left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "19",
+    "11.25",
+    "265"
+   ],
+   "expect": "The 19 chests at $11.25 a chest come to $213.75, $0.81 an apricot."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "265",
+    "4"
+   ],
+   "expect": "The 265 apricots at 4 apricots a minute take 67 minutes, 1 hour 7 minutes."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 apricot at 1 apricot a chest takes 1 chest, the last chest holding 1 apricot."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "360",
+    "8"
+   ],
+   "expect": "The 360 apricots at 8 apricots a chest take 45 chests, the last chest holding 8 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 apricots at 1000 apricots a chest take 1000 chests, the last chest holding 1000 apricots."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 apricot at 1 apricot a week lasts 1 full week with 0 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "360",
+    "30"
+   ],
+   "expect": "The 360 apricots at 30 apricots a week last 12 full weeks with 0 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 apricots at 100000 apricots a week last 10 full weeks with 0 apricots left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 chest at $0.01 a chest comes to $0.01, $0.01 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 chests at $999.99 a chest come to $99999000.00, $100.00 an apricot."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 apricot at 1 apricot a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 apricots at 1 apricot a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 apricots at 100 apricots a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "588406",
+    "453"
+   ],
+   "expect": "The 588406 apricots at 453 apricots a chest take 1299 chests, the last chest holding 412 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "505124",
+    "549"
+   ],
+   "expect": "The 505124 apricots at 549 apricots a chest take 921 chests, the last chest holding 44 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "647898",
+    "400"
+   ],
+   "expect": "The 647898 apricots at 400 apricots a chest take 1620 chests, the last chest holding 298 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "457760",
+    "943"
+   ],
+   "expect": "The 457760 apricots at 943 apricots a chest take 486 chests, the last chest holding 405 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "884298",
+    "442"
+   ],
+   "expect": "The 884298 apricots at 442 apricots a chest take 2001 chests, the last chest holding 298 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "465185",
+    "535"
+   ],
+   "expect": "The 465185 apricots at 535 apricots a chest take 870 chests, the last chest holding 270 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "497355",
+    "23"
+   ],
+   "expect": "The 497355 apricots at 23 apricots a chest take 21625 chests, the last chest holding 3 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "831336",
+    "59"
+   ],
+   "expect": "The 831336 apricots at 59 apricots a chest take 14091 chests, the last chest holding 26 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "655390",
+    "611"
+   ],
+   "expect": "The 655390 apricots at 611 apricots a chest take 1073 chests, the last chest holding 398 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "469060",
+    "860"
+   ],
+   "expect": "The 469060 apricots at 860 apricots a chest take 546 chests, the last chest holding 360 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "895701",
+    "812"
+   ],
+   "expect": "The 895701 apricots at 812 apricots a chest take 1104 chests, the last chest holding 65 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "439723",
+    "778"
+   ],
+   "expect": "The 439723 apricots at 778 apricots a chest take 566 chests, the last chest holding 153 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "14371",
+    "603"
+   ],
+   "expect": "The 14371 apricots at 603 apricots a chest take 24 chests, the last chest holding 502 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "65396",
+    "775"
+   ],
+   "expect": "The 65396 apricots at 775 apricots a chest take 85 chests, the last chest holding 296 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "784699",
+    "730"
+   ],
+   "expect": "The 784699 apricots at 730 apricots a chest take 1075 chests, the last chest holding 679 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "329578",
+    "992"
+   ],
+   "expect": "The 329578 apricots at 992 apricots a chest take 333 chests, the last chest holding 234 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "98049",
+    "297"
+   ],
+   "expect": "The 98049 apricots at 297 apricots a chest take 331 chests, the last chest holding 39 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "527941",
+    "91"
+   ],
+   "expect": "The 527941 apricots at 91 apricots a chest take 5802 chests, the last chest holding 50 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "278234",
+    "439"
+   ],
+   "expect": "The 278234 apricots at 439 apricots a chest take 634 chests, the last chest holding 347 apricots."
+  },
+  {
+   "fn": "chests",
+   "args": [
+    "288677",
+    "190"
+   ],
+   "expect": "The 288677 apricots at 190 apricots a chest take 1520 chests, the last chest holding 67 apricots."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "9053",
+    "33474"
+   ],
+   "expect": "The 9053 apricots at 33474 apricots a week last 0 full weeks with 9053 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "503491",
+    "86421"
+   ],
+   "expect": "The 503491 apricots at 86421 apricots a week last 5 full weeks with 71386 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "968303",
+    "42111"
+   ],
+   "expect": "The 968303 apricots at 42111 apricots a week last 22 full weeks with 41861 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "596563",
+    "79169"
+   ],
+   "expect": "The 596563 apricots at 79169 apricots a week last 7 full weeks with 42380 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "289551",
+    "63984"
+   ],
+   "expect": "The 289551 apricots at 63984 apricots a week last 4 full weeks with 33615 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "916440",
+    "63627"
+   ],
+   "expect": "The 916440 apricots at 63627 apricots a week last 14 full weeks with 25662 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "817464",
+    "13199"
+   ],
+   "expect": "The 817464 apricots at 13199 apricots a week last 61 full weeks with 12325 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "684852",
+    "24779"
+   ],
+   "expect": "The 684852 apricots at 24779 apricots a week last 27 full weeks with 15819 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "827967",
+    "20354"
+   ],
+   "expect": "The 827967 apricots at 20354 apricots a week last 40 full weeks with 13807 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "425542",
+    "55269"
+   ],
+   "expect": "The 425542 apricots at 55269 apricots a week last 7 full weeks with 38659 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "416629",
+    "36653"
+   ],
+   "expect": "The 416629 apricots at 36653 apricots a week last 11 full weeks with 13446 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "987895",
+    "50750"
+   ],
+   "expect": "The 987895 apricots at 50750 apricots a week last 19 full weeks with 23645 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "954577",
+    "69277"
+   ],
+   "expect": "The 954577 apricots at 69277 apricots a week last 13 full weeks with 53976 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "293284",
+    "12336"
+   ],
+   "expect": "The 293284 apricots at 12336 apricots a week last 23 full weeks with 9556 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "615134",
+    "17545"
+   ],
+   "expect": "The 615134 apricots at 17545 apricots a week last 35 full weeks with 1059 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "487009",
+    "29268"
+   ],
+   "expect": "The 487009 apricots at 29268 apricots a week last 16 full weeks with 18721 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "24845",
+    "87063"
+   ],
+   "expect": "The 24845 apricots at 87063 apricots a week last 0 full weeks with 24845 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "752058",
+    "17053"
+   ],
+   "expect": "The 752058 apricots at 17053 apricots a week last 44 full weeks with 1726 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "236230",
+    "18136"
+   ],
+   "expect": "The 236230 apricots at 18136 apricots a week last 13 full weeks with 462 apricots left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "402024",
+    "63323"
+   ],
+   "expect": "The 402024 apricots at 63323 apricots a week last 6 full weeks with 22086 apricots left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "45500",
+    "432.36",
+    "493772"
+   ],
+   "expect": "The 45500 chests at $432.36 a chest come to $19672380.00, $39.84 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8033",
+    "998.35",
+    "875654"
+   ],
+   "expect": "The 8033 chests at $998.35 a chest come to $8019745.55, $9.16 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "20242",
+    "621.57",
+    "314569"
+   ],
+   "expect": "The 20242 chests at $621.57 a chest come to $12581819.94, $40.00 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "37376",
+    "229.75",
+    "860196"
+   ],
+   "expect": "The 37376 chests at $229.75 a chest come to $8587136.00, $9.98 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "28128",
+    "869.36",
+    "413664"
+   ],
+   "expect": "The 28128 chests at $869.36 a chest come to $24453358.08, $59.11 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "99639",
+    "528.34",
+    "65139"
+   ],
+   "expect": "The 99639 chests at $528.34 a chest come to $52643269.26, $808.17 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "72341",
+    "278.36",
+    "436319"
+   ],
+   "expect": "The 72341 chests at $278.36 a chest come to $20136840.76, $46.15 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "77634",
+    "117.93",
+    "945716"
+   ],
+   "expect": "The 77634 chests at $117.93 a chest come to $9155377.62, $9.68 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "99258",
+    "744.33",
+    "805388"
+   ],
+   "expect": "The 99258 chests at $744.33 a chest come to $73880707.14, $91.73 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "6655",
+    "988.61",
+    "587627"
+   ],
+   "expect": "The 6655 chests at $988.61 a chest come to $6579199.55, $11.20 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "77955",
+    "190.06",
+    "871921"
+   ],
+   "expect": "The 77955 chests at $190.06 a chest come to $14816127.30, $16.99 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69031",
+    "925.57",
+    "793084"
+   ],
+   "expect": "The 69031 chests at $925.57 a chest come to $63893022.67, $80.56 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "47153",
+    "704.14",
+    "818272"
+   ],
+   "expect": "The 47153 chests at $704.14 a chest come to $33202313.42, $40.58 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "56899",
+    "998.85",
+    "508932"
+   ],
+   "expect": "The 56899 chests at $998.85 a chest come to $56833566.15, $111.67 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "36587",
+    "850.02",
+    "532625"
+   ],
+   "expect": "The 36587 chests at $850.02 a chest come to $31099681.74, $58.39 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "37731",
+    "815.86",
+    "187840"
+   ],
+   "expect": "The 37731 chests at $815.86 a chest come to $30783213.66, $163.88 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "50860",
+    "953.8",
+    "496570"
+   ],
+   "expect": "The 50860 chests at $953.80 a chest come to $48510268.00, $97.69 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "15770",
+    "910.24",
+    "927831"
+   ],
+   "expect": "The 15770 chests at $910.24 a chest come to $14354484.80, $15.47 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "87982",
+    "205.66",
+    "706651"
+   ],
+   "expect": "The 87982 chests at $205.66 a chest come to $18094378.12, $25.61 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "82816",
+    "649.86",
+    "278128"
+   ],
+   "expect": "The 82816 chests at $649.86 a chest come to $53818805.76, $193.50 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "10417",
+    "204.55",
+    "259932"
+   ],
+   "expect": "The 10417 chests at $204.55 a chest come to $2130797.35, $8.20 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "30772",
+    "196.86",
+    "929163"
+   ],
+   "expect": "The 30772 chests at $196.86 a chest come to $6057775.92, $6.52 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "90587",
+    "80.05",
+    "647491"
+   ],
+   "expect": "The 90587 chests at $80.05 a chest come to $7251489.35, $11.20 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "38039",
+    "509.68",
+    "269794"
+   ],
+   "expect": "The 38039 chests at $509.68 a chest come to $19387717.52, $71.86 an apricot."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "39869",
+    "297.61",
+    "412054"
+   ],
+   "expect": "The 39869 chests at $297.61 a chest come to $11865413.09, $28.80 an apricot."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "770506",
+    "7"
+   ],
+   "expect": "The 770506 apricots at 7 apricots a minute take 110073 minutes, 1834 hours 33 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "902970",
+    "1"
+   ],
+   "expect": "The 902970 apricots at 1 apricot a minute take 902970 minutes, 15049 hours 30 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "916175",
+    "64"
+   ],
+   "expect": "The 916175 apricots at 64 apricots a minute take 14316 minutes, 238 hours 36 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "482902",
+    "25"
+   ],
+   "expect": "The 482902 apricots at 25 apricots a minute take 19317 minutes, 321 hours 57 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "810709",
+    "98"
+   ],
+   "expect": "The 810709 apricots at 98 apricots a minute take 8273 minutes, 137 hours 53 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "788950",
+    "5"
+   ],
+   "expect": "The 788950 apricots at 5 apricots a minute take 157790 minutes, 2629 hours 50 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "697458",
+    "23"
+   ],
+   "expect": "The 697458 apricots at 23 apricots a minute take 30325 minutes, 505 hours 25 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "390301",
+    "23"
+   ],
+   "expect": "The 390301 apricots at 23 apricots a minute take 16970 minutes, 282 hours 50 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "959771",
+    "31"
+   ],
+   "expect": "The 959771 apricots at 31 apricots a minute take 30961 minutes, 516 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "893425",
+    "70"
+   ],
+   "expect": "The 893425 apricots at 70 apricots a minute take 12764 minutes, 212 hours 44 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "647286",
+    "30"
+   ],
+   "expect": "The 647286 apricots at 30 apricots a minute take 21577 minutes, 359 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "631466",
+    "82"
+   ],
+   "expect": "The 631466 apricots at 82 apricots a minute take 7701 minutes, 128 hours 21 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "835851",
+    "33"
+   ],
+   "expect": "The 835851 apricots at 33 apricots a minute take 25329 minutes, 422 hours 9 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "627244",
+    "27"
+   ],
+   "expect": "The 627244 apricots at 27 apricots a minute take 23232 minutes, 387 hours 12 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "751324",
+    "80"
+   ],
+   "expect": "The 751324 apricots at 80 apricots a minute take 9392 minutes, 156 hours 32 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "242625",
+    "60"
+   ],
+   "expect": "The 242625 apricots at 60 apricots a minute take 4044 minutes, 67 hours 24 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "616009",
+    "63"
+   ],
+   "expect": "The 616009 apricots at 63 apricots a minute take 9778 minutes, 162 hours 58 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "406430",
+    "2"
+   ],
+   "expect": "The 406430 apricots at 2 apricots a minute take 203215 minutes, 3386 hours 55 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "186321",
+    "20"
+   ],
+   "expect": "The 186321 apricots at 20 apricots a minute take 9317 minutes, 155 hours 17 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "chests",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "chests",
+   [
+    "1000001",
+    "8"
+   ]
+  ],
+  [
+   "chests",
+   [
+    "2.5",
+    "8"
+   ]
+  ],
+  [
+   "chests",
+   [
+    "290",
+    "0"
+   ]
+  ],
+  [
+   "chests",
+   [
+    "290",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "290",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "290",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "290",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "12.75",
+    "290"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "12.75",
+    "290"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "0",
+    "290"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.755",
+    "290"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.75",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "time",
+   [
+    "290",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "290",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "290",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
